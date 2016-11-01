@@ -18,9 +18,7 @@ export default class App extends Component {
 	}
 
 	toggleModal(e) {
-    if (e) {
-      e.preventDefault()
-    }
+    if (e) e.preventDefault()
 		this.setState({ showModal: !this.state.showModal})
 	}
 
