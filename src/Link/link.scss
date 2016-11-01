@@ -1,0 +1,19 @@
+.link-container {
+	text-align: center;
+
+	.link {
+		color: black;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.link-container:first-child {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.link-container:first-child {
+		font-size: 3em;
+	}
+}
